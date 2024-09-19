@@ -1,4 +1,4 @@
-name: OX2-BESS
+name: OX2-AU-BESS
 channels:
   - defaults
 dependencies:
@@ -55,12 +55,14 @@ dependencies:
   - werkzeug=2.2.3=py39haa95532_0
   - wheel=0.41.2=py39haa95532_0
   - win_inet_pton=1.1.0=py39haa95532_0
+  - zipp=3.17.0=py39haa95532_0
   - pip:
       - contourpy==1.2.0
       - cycler==0.12.1
       - dash-bootstrap-components==1.5.0
       - dash-bootstrap-templates==1.1.1
       - et-xmlfile==1.1.0
+      - fiscalyear==0.4.0
       - fonttools==4.45.0
       - importlib-resources==6.1.1
       - kiwisolver==1.4.5
@@ -71,6 +73,7 @@ dependencies:
       - pillow==10.1.0
       - pulp==2.7.0
       - pyparsing==3.1.1
+      - pywin32==306
       - scipy==1.11.4
-      - zipp==3.17.0
-prefix: C:\Users\341510moja\Anaconda3\envs\OX2-BESS
+      - xlwings==0.32.0
+prefix: C:\Users\341510moja\AppData\Local\anaconda3\envs\OX2-BESS
